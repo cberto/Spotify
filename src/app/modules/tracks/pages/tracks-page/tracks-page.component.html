@@ -1,1 +1,14 @@
-<p>tracks-page works!</p>
+<div class="tracks-page">
+  <!-- section top -->
+  <app-section-generic
+    [dataTracks]="mockTracksList"
+    [mode]="'small'"
+    [title]="'Lista de las mejores musicas'"
+  ></app-section-generic>
+  <!-- section medium -->
+  <app-section-generic
+    [dataTracks]="mockTracksList"
+    [mode]="'big'"
+    [title]="'Lo mejor de Rock '"
+  ></app-section-generic>
+</div>
