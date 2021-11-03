@@ -14,7 +14,6 @@
     </div>
   </div>
 </div>
-
 <!-- ZONE TEMPLATES -->
 
 <ng-template #artistZone>
@@ -38,9 +37,6 @@
       <button class="arrow btn">
         <i class="uil uil-previous"></i>
       </button>
-      <button class="play btn">
-        <i class="uil"></i>
-      </button>
       <button class="arrow btn">
         <i class="uil uil-step-forward"></i>
       </button>
@@ -50,7 +46,7 @@
       <span #progressBar class="time-progress">
         <span class="time-progress-live" [style.width]="10 + '%'"> </span>
       </span>
-      <div class="time">ltimediaSet {{ 99 }}</div>
+      <div class="time">{{ 99 }}</div>
     </div>
   </div>
 </ng-template>

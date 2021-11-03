@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TracksModule } from '../../../modules/tracks/tracks.module';
+import { TrackModel } from '../../../core/models/tracks.model';
 
 @Component({
   selector: 'app-media-player',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./media-player.component.css']
 })
 export class MediaPlayerComponent implements OnInit {
-mockCover: any ={
+mockCover: TrackModel ={
   cover: 'https://www.buenamusica.com/media/fotos/cantantes/biografia/twenty-one-pilots.jpg',
   album: 'Ride',
-  name: 'Twenty One Pilots'
+  name: 'Twenty One Pilots',
+  url: 'http://localhost/tracks.mp3',
+  _id: 1
 }
   constructor() { }
 
