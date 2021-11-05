@@ -8,8 +8,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // HistoryPageComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

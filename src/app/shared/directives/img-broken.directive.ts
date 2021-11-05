@@ -1,10 +1,18 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
-  selector: '[appImgBroken]'
+  selector: 'img[appImgBroken]'
 })
 export class ImgBrokenDirective {
+  @Input() customImg: string = '';
+  @HostListener('error') handleError(): void {
+    const elNative = this.elHost.nativeElement;
+    console.log('Revento' ,this.elHost)
+    elNative.src = this.customImg
+  }
 
-  constructor() { }
+  constructor(private elHost: ElementRef) {
+    console.log(elHost)
+   }
 
 }

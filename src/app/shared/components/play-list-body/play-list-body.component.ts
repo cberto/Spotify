@@ -8,14 +8,11 @@ import * as dataRaw from  '../../../data/tracks.json';
 })
 export class PlayListBodyComponent implements OnInit {
   @Input() tracks: TrackModel[] = []
-
-
   optionSort: { property: string | null, order: string } = { property: null, order: 'asc' }
   constructor() { }
 
   ngOnInit(): void {
-    const {data}: any =(dataRaw as any).default
-    this.tracks = data
+
   }
 
   changeSort(property: string): void {
@@ -27,6 +24,5 @@ export class PlayListBodyComponent implements OnInit {
     console.log(this.optionSort);
 
   }
-
 
 }
