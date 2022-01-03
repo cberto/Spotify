@@ -1,13 +1,13 @@
 {
   "data": [{
           "_id": 1,
-          "name": "Getting Over",
-          "album": "One Love",
-          "cover": "https://jenesaispop.com/wp-content/uploads/2009/09/guetta_onelove.jpg",
+          "name": "Stressed Out",
+          "album": "Blurryface",
+          "cover": "https://www.rockandpop.cl/wp-content/uploads/2018/03/rs-224400-21-768x403.jpg",
           "artist": {
-              "name": "David Guetta",
-              "nickname": "David Guetta",
-              "nationality": "FR"
+              "name": "Twenty One Pilots",
+              "nickname": "Twenty One Pilots",
+              "nationality": "US"
           },
           "duration": {
               "start": 0,
@@ -33,13 +33,13 @@
       },
       {
           "_id": 3,
-          "name": "Calypso (Original Mix)",
-          "album": "Round Table Knights",
-          "cover": "https://cdns-images.dzcdn.net/images/cover/1db3f8f185e68f26feaf0b9d72ff1645/350x350.jpg",
+          "name": "ANIMA",
+          "album": "ANIMA",
+          "cover": "https://ost.jpoplibs.us/wp-content/uploads/2020/07/Download-ReoNa-ANIMA-Single-forget-me-not-mp3-till-the-end-full-album-sweet-hurt-canaria-niji-kanatani-298x180.jpg",
           "artist": {
-              "name": "Round Table Knights",
-              "nickname": "Round Table Knights",
-              "nationality": "US"
+              "name": "REONA",
+              "nickname": "REONA",
+              "nationality": "JP"
           },
           "duration": {
               "start": 0,
@@ -49,13 +49,13 @@
       },
       {
           "_id": 4,
-          "name": "Bad Habits",
-          "album": "Ed Sheeran",
-          "cover": "https://www.lahiguera.net/musicalia/artistas/ed_sheeran/disco/11372/tema/25301/ed_sheeran_bad_habits-portada.jpg",
+          "name": "Luz Delito",
+          "album": "WOS",
+          "cover": "https://yt3.ggpht.com/ytc/AKedOLQopirIn9N64CwYPiNm7kr7EAFt9Sn3jgGga7K9nw=s900-c-k-c0x00ffffff-no-rj",
           "artist": {
-              "name": "Ed Sheeran",
-              "nickname": "Ed Sheeran",
-              "nationality": "UK"
+              "name": "WOS",
+              "nickname": "WOS",
+              "nationality": "AR"
           },
           "duration": {
               "start": 0,
@@ -65,12 +65,12 @@
       },
       {
           "_id": 5,
-          "name": "BEBE (Official Video)",
-          "album": "Giolì & Assia",
-          "cover": "https://i.scdn.co/image/ab67616d0000b27345ca41b0d2352242c7c9d4bc",
+          "name": "Comfortably Numb",
+          "album": "Pink floyd",
+          "cover": "https://rockfm-cdnmed.agilecontent.com/resources/jpg/6/8/1592495503186.jpg",
           "artist": {
-              "name": "Giolì & Assia",
-              "nickname": "Giolì & Assia",
+              "name": "Pink floyd",
+              "nickname": "Pink floyd",
               "nationality": "IT"
           },
           "duration": {
@@ -113,13 +113,13 @@
       },
       {
           "_id": 8,
-          "name": "Bésame💋",
-          "album": "Valentino Ft MTZ Manuel Turizo (Video Oficial)",
-          "cover": "https://i1.sndcdn.com/artworks-000247627460-1hqnjr-t500x500.jpg",
+          "name": "Va a escampar",
+          "album": "Vela puerca",
+          "cover": "https://cdn-d15c.kxcdn.com/contenidos/201909/84225b94-00d3-4bf1-80d2-f7f86f3266e1.jpg",
           "artist": {
-              "name": "Valentino",
-              "nickname": "Valentino",
-              "nationality": "CO"
+              "name": "Vela puerca",
+              "nickname": "Vela puerca",
+              "nationality": "UR"
           },
           "duration": {
               "start": 0,
